@@ -16,6 +16,14 @@
     background-color: #ddd;
     color: #0704aa;
 }
+
+#backgorundform {
+    background-color: blue;
+}
+
+.textform{
+    color: white;
+}
   
 .topnav a.active {
     background-color: #0704aa;
