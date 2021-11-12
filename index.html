@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Pemrograman Web UNDIRA</title>
+    <title>UTS DASAR PEMROGRAMAN WEB</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -9,34 +9,74 @@
     <main>
         <div class="topnav">
             <a href="./index.html">Home</a>
-            <a href="./page2.html">Page 2</a>
-            <a href="./form.html">Form</a>
+            <a href="https://github.com/Zaboy15/latihankampus">Github Account</a>
+        </div>
 
-          </div>
-    
-    <div style="text-align: center;">
-        <h1>Web UNDIRA</h1>
+        <div style="text-align: center;">
+            <h1>UTS DASAR PEMROGRAMAN WEB</h1>
+        </div>
+        <div class="backgorundform">
+            <fieldset>
+                <legend class="textform">Form Registrasi</legend> 
+            <form action="">
+                <label for="nama" class="textform">Nama:</label></br>
+                <input type="text"> </br></br>
 
-    </div>
-    <div style="text-align: center;">
-        <img src="https://reguler.undira.ac.id/images/fasilitas/736Gedung.JPG">
-    </div>
-    <div>
-        <h1>Isi Web</h1>
-        <p style="color: blue; background-color: #ff9000;">Ini adalah paragraf</p>
-        <ol>
-            <li>Item1</li>
-            <li>Item2</li>
-            <li>Item3</li>
-            <li>Item4</li>
-        </ol>
-        <ul>
-            <li>Item1</li>
-            <li>Item2</li>
-            <li>Item3</li>
-            <li>Item4</li>
-        </ul>
-    </div>
+                <label for="email" class="textform">Email:</label></br>
+                <input type="email"></br> </br>
+                <label for="cars" class="textform">Asal Kota:</label>
+
+                <select name="asal" id="cars">
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bekasi">Bekasi</option>
+                    <option value="bogor">Bogor</option>
+                    <option value="depok">Depok</option>
+                </select></br> </br>
+                <label for="jenis_kelamin" class="textform">Jenis Kelamin :</label></br>
+
+                <input type="radio" id="laki" value="laki">
+                <label for="laki" class="textform">Laki - Laki</label>
+                <input type="radio" id="wanita" value="wanita">
+                <label for="wanita" class="textform">Perempuan</label><br></br>
+
+                <label for="hobi" class="textform">Hobi : </label>
+                <label for="bulutangkis" class="textform">Bulutangkis</label>
+                <input type="checkbox">
+                <label for="sepakbola" class="textform">Sepakbola</label>
+                <input type="checkbox">
+                <label for="renang" class="textform">Renang</label>
+                <input type="checkbox"></br></br>
+
+                <label for="alamat" class="textform" >Alamat:</label></br>
+
+                <textarea id="alamat" name="alamat" rows="4" cols="30">
+
+                </textarea>
+
+
+
+
+
+            </form>
+            <button type="submit" form="form" value="Submit">Kirim</button>
+            </fieldset>
+        </div>
+
+        <h2>TR elements define table rows</h2>
+<table style="width:100%">
+  <tr>
+    <td colspan="3">Baris 1 : Kolom 1</td>
+  </tr>
+  <tr>
+    <td>Baris 1 : Kolom 1</td>
+    <td>Baris 2 : Kolom 2</td>
+    <td>Baris 2 : Kolom 3</td>
+  </tr>
+  <tr>    
+  	<td>Baris 3 : Kolom 1</td>
+    <td colspan="2">Baris 3 : Kolom 2</td>
+  </tr>
+</table>
     </main>
 </body>
 <footer>
